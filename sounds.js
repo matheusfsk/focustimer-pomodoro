@@ -8,7 +8,7 @@ export default function () {
   );
   const bgAudio = audio;
 
-  bgAudio.loop;
+  bgAudio.loop = true;
 
   function pressButton() {
     buttonPressAudio.play();

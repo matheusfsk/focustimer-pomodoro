@@ -52,12 +52,12 @@ buttonStop.addEventListener("click", function () {
 buttonSoundOn.addEventListener("click", function () {
   buttonSoundOn.classList.toggle("hide");
   buttonSoundOff.classList.toggle("hide");
-  sound.bgAudio.play();
+  sound.bgAudio.pause();
 });
 buttonSoundOff.addEventListener("click", function () {
   buttonSoundOn.classList.toggle("hide");
   buttonSoundOff.classList.toggle("hide");
-  sound.bgAudio.pause();
+  sound.bgAudio.play();
 });
 
 //////////////////SOUND /////////////////
